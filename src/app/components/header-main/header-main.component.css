@@ -1,6 +1,7 @@
 .container__header-main{
 position: relative;
 top:135px;
+z-index: 9998;
 }
 .header-main__background{
     width: 100%;
