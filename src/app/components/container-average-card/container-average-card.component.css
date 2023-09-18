@@ -1,8 +1,32 @@
 .container__average-card{
     position: relative;
     display: flex;
-    flex-wrap: wrap;
-    justify-content:center;
+    flex-direction: column;
+    align-items:center;
     margin: 180px auto 50px auto;
     width: 100%;
+}
+
+.average-cards{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    width: 100%;
+}
+
+button{
+    padding: 10px 20px;
+    margin: 15px;
+    width: 150px;
+    color: #006BC2;
+    font-weight: bold;
+    font-size: 12pt;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+button:hover{
+    color: #004C8A;
+    background-color: #F1F1F1;
 }

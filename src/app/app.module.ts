@@ -8,6 +8,8 @@ import { HeaderMainComponent } from './components/header-main/header-main.compon
 import { ContainerAverageCardComponent } from './components/container-average-card/container-average-card.component';
 import { AverageCardComponent } from './components/average-card/average-card.component';
 import { AllCardsComponent } from './components/all-cards/all-cards.component';
+import { SmallCardComponent } from './components/small-card/small-card.component';
+import { ContainerSmallCardComponent } from './components/container-small-card/container-small-card.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { AllCardsComponent } from './components/all-cards/all-cards.component';
     HeaderMainComponent,
     ContainerAverageCardComponent,
     AverageCardComponent,
-    AllCardsComponent
+    AllCardsComponent,
+    SmallCardComponent,
+    ContainerSmallCardComponent
   ],
   imports: [
     BrowserModule,

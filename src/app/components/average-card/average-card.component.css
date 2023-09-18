@@ -1,7 +1,7 @@
 .average-card{
-    width: 295px;
-    height: 295px;
-    padding: 5px;
+    width: 22vw;
+    height: 22vw;
+    padding: 8px;
     border-radius: 6px;
 }
 .img__average-card{
@@ -16,4 +16,11 @@
 
 .average-card:active{
    border: solid #004C8A 2px;
+}
+
+@media only screen and (max-width: 1365px) {
+    .average-card{
+        width: 25vw;
+        height: 25vw;
+    }
 }

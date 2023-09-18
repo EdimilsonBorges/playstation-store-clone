@@ -1,0 +1,46 @@
+header{
+    position: relative;
+    display: flex;
+    justify-content:space-between; 
+    color: #363636; 
+    margin-bottom: 10px;
+}
+
+header > h2{
+    font-weight:100;
+    font-size: 2rem;
+    padding-left: 10px;
+}
+
+header > button{
+    width: 140px;
+    color: #006BC2;
+    font-weight: bold;
+    font-size: 12pt;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+header > button:hover{
+    color: #004C8A;
+    background-color: #F1F1F1;
+}
+
+.container__small-card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin: auto auto 100px auto;
+    width: 100%;
+}
+
+.small-cards{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin: auto;
+    width: 100%;
+}

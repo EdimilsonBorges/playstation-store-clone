@@ -1,0 +1,24 @@
+.small-card{
+    width: 13.9vw;
+    height: 13.9vw;
+    padding: 2px;
+    margin: 6px;
+    border-radius: 6px;
+}
+.img__small-card{
+    width: 100%;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.img__small-card:hover{
+    filter: brightness(80%);
+}
+
+.small-card:hover{
+    border: solid #004C8A 2px;
+ }
+
+@media only screen and (max-width: 1365px) {
+    
+}

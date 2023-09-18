@@ -1,0 +1,12 @@
+<div class="container__small-card">
+    <header>
+        <h2>{{titleCard}}</h2>
+        <button type="button">Visualizar tudo</button>
+    </header>
+    <div class="small-cards">
+        <app-small-card *ngFor="let item of itens"
+            linkImg={{item.linkImg}}
+            titleSmallCard={{item.titleSmallCard}}>
+        </app-small-card>
+    </div>
+</div>
