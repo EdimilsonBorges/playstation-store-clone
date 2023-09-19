@@ -1,0 +1,48 @@
+.container__background-header-main{
+position: relative;
+margin-bottom: 100px;
+box-shadow:0px 35px 30px #eee;
+}
+.background-header-main__background{
+    width: 100%;
+    height: 368px;
+    background-image: url("https://image.api.playstation.com/pr/bam-art/162/307/296cf7ae-9922-4d64-8956-622db5ad704f.png"), url("https://image.api.playstation.com/pr/bam-art/162/308/75fa7eb7-1fdc-4c8d-94fe-09702ab6218f.png"), url("https://image.api.playstation.com/pr/bam-art/119/842/993e7f72-df2d-4b3a-93e7-6724dafeae18.jpg");
+    background-position: 30% center, 65% bottom, center 15px;
+    background-size: 23%, 390px, 100%;
+    background-repeat:no-repeat;
+}
+
+.background-header-main__footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 70px;
+    width: 100%;
+    height: 100px;
+    box-shadow:0px 0px 30px #bbb;
+    color: #363636;
+}
+.background-header-main__footer > h2{
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+h3{
+    color: #363636;
+    padding: 0px 0px 30px 70px;
+    font-weight: 100;
+    font-size: 1.0rem;
+}
+.background-header-main__footer button{
+    background-color: #0070cc;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+.background-header-main__footer button:hover{
+    background-color: #005499;
+}

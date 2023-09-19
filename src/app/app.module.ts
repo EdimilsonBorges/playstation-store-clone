@@ -4,7 +4,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MenuComponent } from './components/menu/menu.component';
-import { HeaderMainComponent } from './components/header-main/header-main.component';
+import { BackgroundHeaderMainComponent } from './components/background-header-main/background-header-main.component';
+import { BackgroundQuiteMainComponent } from './components/background-quite-main/background-quite-main.component';
+import { BackgroundFooterMainComponent } from './components/background-footer-main/background-footer-main.component';
 import { ContainerAverageCardComponent } from './components/container-average-card/container-average-card.component';
 import { AverageCardComponent } from './components/average-card/average-card.component';
 import { AllCardsComponent } from './components/all-cards/all-cards.component';
@@ -15,7 +17,9 @@ import { ContainerSmallCardComponent } from './components/container-small-card/c
   declarations: [
     AppComponent,
     MenuComponent,
-    HeaderMainComponent,
+    BackgroundHeaderMainComponent,
+    BackgroundQuiteMainComponent,
+    BackgroundFooterMainComponent,
     ContainerAverageCardComponent,
     AverageCardComponent,
     AllCardsComponent,
