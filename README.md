@@ -1,5 +1,3 @@
-## Veja como ficou aqui -> [https://edimilsonborges.github.io/clone-playstation-store-angular/](https://edimilsonborges.github.io/clone-playstation-store-angular/)
-
 # PlaystationStoreClone
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
