@@ -1,24 +1,32 @@
+.container__small-card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin: auto auto 6.25rem auto;
+}
+
 header{
     position: relative;
     display: flex;
     justify-content:space-between; 
     color: #363636; 
-    margin-bottom: 10px;
+    margin-bottom: 0.62rem;
 }
 
 header > h2{
     font-weight:100;
     font-size: 2rem;
-    padding-left: 10px;
+    padding-left: 0.62rem;
 }
 
 header > button{
-    width: 140px;
+    width: 8.75rem;
     color: #006BC2;
     font-weight: bold;
-    font-size: 12pt;
+    font-size: 1rem;
     border: none;
-    border-radius: 50px;
+    border-radius: 3.12rem;
     cursor: pointer;
 }
 
@@ -27,20 +35,30 @@ header > button:hover{
     background-color: #F1F1F1;
 }
 
-.container__small-card{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    margin: auto auto 100px auto;
-    width: 100%;
-}
+
 
 .small-cards{
     position: relative;
-    display: flex;
-    /* flex-wrap: wrap; */
-    justify-content:center;
-    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
     width: 100%;
+}
+
+@media screen and (max-width:900px) {
+    .small-cards{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .small-cards{
+        grid-template-columns: 1fr 1fr;
+    }
+    header > h2{
+        font-size: 1rem;
+    }
+    header > button{
+        font-size: 0.7rem;
+    }
 }

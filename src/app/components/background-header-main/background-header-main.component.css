@@ -1,43 +1,60 @@
-.container__background-header-main{
-position: relative;
-top:135px;
-z-index: 9998;
-}
-.background-header-main__background{
-    width: 100%;
-    height: 350px;
-    background-image: url("https://image.api.playstation.com/pr/bam-art/163/109/4642eea7-221a-4d2d-bc43-5d703a53fd9f.png"), url("https://image.api.playstation.com/pr/bam-art/163/109/56af6f56-5d24-4e3d-beec-c801f91632ef.jpg");
-    background-position: 30% center,center;
-    background-size: 23%, 100%;
-    background-repeat:no-repeat;
+.container__background-header-main {
+    position: relative;
+    top: 8.43rem;
+    z-index: 9998;
 }
 
-.background-header-main__footer{
+.background-header-main__background {
+    width: 100%;
+    height: 21.87rem;
+    background-image: url("https://image.api.playstation.com/pr/bam-art/163/109/4642eea7-221a-4d2d-bc43-5d703a53fd9f.png"), url("https://image.api.playstation.com/pr/bam-art/163/109/56af6f56-5d24-4e3d-beec-c801f91632ef.jpg");
+    background-position: 30% center, center;
+    background-size: 23%, 100%;
+    background-repeat: no-repeat;
+}
+
+.background-header-main__footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 70px;
+    padding: 1.87rem 4.37rem;
     width: 100%;
-    height: 100px;
-    box-shadow:0px 0px 30px #bbb;
+    box-shadow: 0rem 0rem 1.87rem #bbb;
     color: #363636;
 }
-.background-header-main__footer h2{
-    text-transform:uppercase;
+
+.background-header-main__footer h2 {
+    text-transform: uppercase;
     font-weight: 100;
     font-size: 1.5rem;
 }
-.background-header-main__footer button{
+
+.background-header-main__footer button {
     background-color: #0070cc;
     color: #fff;
     border: none;
-    padding: 10px 15px;
-    border-radius: 50px;
+    padding: 0.62rem 0.93rem;
+    border-radius: 3.12rem;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 0.93rem;
     cursor: pointer;
-    
+
 }
-.background-header-main__footer button:hover{
+
+.background-header-main__footer button:hover {
     background-color: #005499;
+}
+
+@media screen and (max-width:900px) {
+    .background-header-main__footer h2{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .background-header-main__footer{
+        flex-direction: column;
+        align-items: start;
+        gap:0.8rem;
+    }
 }
