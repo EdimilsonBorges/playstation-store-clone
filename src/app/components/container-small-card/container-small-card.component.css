@@ -53,7 +53,7 @@ header > button:hover{
 
 @media screen and (max-width:600px) {
     .small-cards{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
     header > h2{
         font-size: 1rem;
