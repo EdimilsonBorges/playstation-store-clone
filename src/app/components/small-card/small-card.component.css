@@ -6,13 +6,11 @@
 .img__small-card{
     width: 100%;
     border-radius: 0.37rem;
+    border: solid #ffffff 0.2rem;
     cursor: pointer;
 }
 
 .img__small-card:hover{
     filter: brightness(80%);
+    outline: solid #004C8A 0.15rem;
 }
-
-.small-card:hover{
-    border: solid #004C8A 0.12rem;
- }
