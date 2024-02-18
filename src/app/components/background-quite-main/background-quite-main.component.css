@@ -9,7 +9,7 @@
     height: 23.75rem;
     background-image: url("https://image.api.playstation.com/pr/bam-art/162/307/296cf7ae-9922-4d64-8956-622db5ad704f.png"), url("https://image.api.playstation.com/pr/bam-art/162/308/75fa7eb7-1fdc-4c8d-94fe-09702ab6218f.png"), url("https://image.api.playstation.com/pr/bam-art/119/842/993e7f72-df2d-4b3a-93e7-6724dafeae18.jpg");
     background-position: 30% center, 65% bottom, center 15px;
-    background-size: 23%, 390px, 100%;
+    background-size: 23%, 30%, 100%;
     background-repeat: no-repeat;
 }
 
@@ -51,10 +51,19 @@ h3 {
     background-color: #005499;
 }
 
+@media screen and (max-width:900px) {
+    .background-header-main__background{
+        height: 15rem;
+    }
+}
+
 @media screen and (max-width:600px) {
     .background-header-main__footer {
         flex-direction: column;
         align-items: start;
         gap: 1rem;
+    }
+    .background-header-main__background{
+        height: 10rem;
     }
 }
